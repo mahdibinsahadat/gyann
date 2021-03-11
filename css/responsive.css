@@ -1,0 +1,1411 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    /*========== title start =========*/
+    .title p {
+        width: auto;
+    }
+
+    /*========== title end =========*/
+
+    /*========== header start =========*/
+
+    header p {
+        text-align: center;
+        display: block;
+    }
+
+    header .reg {
+        text-align: center;
+    }
+
+    /*========== header end =========*/
+
+    /*========== nav start =========*/
+
+    nav {
+        padding: 20px 0;
+    }
+
+    nav button i {
+        color: #2d3e50;
+        margin-top: 25px;
+        font-size: 24px;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #2d3e50;
+        padding: 20px 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    nav .button {
+        background: #2d3e50;
+
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    nav .button a {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 8px 15px;
+        font-size: 18px;
+        transition: .6s;
+    }
+
+    nav .button a:hover {
+        background: #fff;
+        color: #fbaa33;
+    }
+
+    /*========== nav end =========*/
+
+
+    /*========== banner start =========*/
+    #banner-part h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    #banner-part h1 {
+        font-size: 42px;
+
+    }
+
+    #banner-part p {
+        width: auto;
+    }
+
+    #banner-part a {
+        font-size: 14px;
+        margin-top: 35px;
+        padding: 12px 15px;
+
+    }
+
+    #banner-part .butten {
+        padding-bottom: 80px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #fba333;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fba333;
+    }
+
+    #banner-bottom {
+        margin-top: 50px;
+        transform: translateY(0);
+    }
+
+    /*========== banner end =========*/
+
+
+    /*========== about start =========*/
+    #about-part .item {
+        margin-top: 0;
+    }
+
+    #about-part .text p {
+        padding-top: 26px;
+        width: auto;
+    }
+
+    #about-part .text a {
+        padding: 12px 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+
+    /*========== about end =========*/
+
+
+    /*========== counter start =========*/
+
+    #counter-part {
+        margin-top: 0px;
+    }
+
+    #counter-part .item h2 {
+        font-size: 38px;
+        padding-bottom: 0;
+    }
+
+    #counter-part .item p {
+        font-size: 23px;
+        padding-bottom: 7px;
+    }
+
+    #counter-part .item img {
+        padding-bottom: 25px;
+    }
+
+    /*========== counter end =========*/
+
+
+    /*========== courses start =========*/
+
+    #courses-part .details p {
+        width: auto;
+    }
+
+    #courses-part .time h5 {
+        font-size: 12px;
+    }
+
+    #courses-part .slick-dots {
+        position: absolute;
+        bottom: 5;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #courses-part .slick-dots li {
+        display: inline-block;
+
+    }
+
+    #courses-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #courses-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+
+
+    /*========== courses end =========*/
+
+
+    /*========== testimonial start =========*/
+
+    #testimonial-part .item p {
+        width: auto;
+
+    }
+
+    testimonial-part .test_slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 20%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #testimonial-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #testimonial-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    #testimonial-part .accordion-item {
+        margin-top: 40px;
+    }
+
+    /*========== testimonial end =========*/
+
+
+    /*========== event start =========*/
+    #event-part .item img {
+        width: 100%;
+    }
+
+    /*========== event end =========*/
+
+
+
+
+
+    /*========== blog start =========*/
+
+    #blog-part {
+        transform: translateY(-7%);
+    }
+
+    #blog-part .big .img .overlay {
+        z-index: 1;
+    }
+
+    #blog-part .big .img .overlay .icon ul {
+        margin-top: 0;
+    }
+
+    #blog-part .big .img {
+        margin-bottom: 20px;
+    }
+
+    #blog-part .text {
+        display: none;
+    }
+
+    #blog-part .text-bottom {
+        display: none;
+    }
+
+    /*========== blog end =========*/
+
+    /*========== contact start ======*/
+
+    #contact-part .contact ul li {
+        display: none;
+    }
+
+    /*======== contact end =========*/
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    /*========== title start =========*/
+    .title p {
+        width: auto;
+    }
+
+    /*========== title end =========*/
+
+    /*========== header start =========*/
+
+    header p {
+        text-align: center;
+        display: block;
+        margin: 8px 0;
+        font-size: 17px;
+    }
+
+    header .reg {
+        text-align: center;
+    }
+
+    /*========== header end =========*/
+
+    /*========== nav start =========*/
+    nav {
+        padding-top: 10px !important;
+        padding-bottom: 20px !important;
+    }
+
+    nav button i {
+        color: #2d3e50;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        background: #2d3e50;
+        padding: 20px 0;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    nav .button a {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 8px 15px;
+        font-size: 18px;
+        transition: .6s;
+    }
+
+    nav .button a:hover {
+        background: #fff;
+        color: #fbaa33;
+    }
+
+    /*========== nav end =========*/
+
+
+    /*========== banner start =========*/
+    #banner-part .butten {
+        padding-bottom: 60px;
+    }
+
+    #banner-part h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    #banner-part h1 {
+        font-size: 42px;
+
+    }
+
+    #banner-part p {
+        width: auto;
+    }
+
+    #banner-part a {
+        font-size: 14px;
+        margin-top: 35px;
+        padding: 12px 15px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-bottom {
+        margin-top: 50px;
+        transform: translateY(0);
+    }
+
+
+    /*========== banner end =========*/
+
+
+    /*========== about start =========*/
+    #about-part .item {
+        margin-top: 0;
+    }
+
+    #about-part .text p {
+        padding-top: 26px;
+        width: auto;
+    }
+
+    #about-part .text a {
+        padding: 12px 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+
+    /*========== about end =========*/
+
+
+    /*========== counter start =========*/
+
+    #counter-part {
+        margin-top: 0px;
+    }
+
+    #counter-part .item h2 {
+        font-size: 38px;
+        padding-bottom: 0;
+    }
+
+    #counter-part .item p {
+        font-size: 23px;
+        padding-bottom: 7px;
+    }
+
+    #counter-part .item img {
+        padding-bottom: 25px;
+    }
+
+    /*========== counter end =========*/
+
+
+    /*========== courses start =========*/
+
+    #courses-part .details p {
+        width: auto;
+    }
+
+    #courses-part .time h5 {
+        font-size: 12px;
+    }
+
+    #courses-part .slick-dots {
+        position: absolute;
+        bottom: 5;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #courses-part .slick-dots li {
+        display: inline-block;
+
+
+    }
+
+    #courses-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #courses-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+
+    /*========== courses end =========*/
+
+
+    /*========== testimonial start =========*/
+
+
+    #testimonial-part .item p {
+        width: auto;
+
+    }
+
+    testimonial-part .test_slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 20%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #testimonial-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #testimonial-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    #testimonial-part .accordion-item {
+        margin-top: 40px;
+    }
+
+    /*========== testimonial end =========*/
+
+
+    /*========== testimonial start =========*/
+    #event-part .item img {
+        width: 100%;
+    }
+
+
+    #event-part .slick-dots {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #event-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #event-part .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: #fba333;
+        border: 1px solid #fba333;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    #event-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #fbaa33;
+
+    }
+
+    /*========== testimonial end =========*/
+
+
+    /*========== teacher start =========*/
+
+
+    #teacher-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #teacher-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #teacher-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #teacher-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    /*========== teacher end =========*/
+
+
+
+    /*========== blog start =========*/
+
+    #blog-part {
+        transform: translateY(-7%);
+    }
+
+    #blog-part .big .img .overlay {
+        z-index: 1;
+    }
+
+    #blog-part .big .img .overlay .icon ul {
+        margin-top: 0;
+    }
+
+    #blog-part .big .img {
+        margin-bottom: 20px;
+    }
+
+
+    #blog-part .small .img .overlay h3 {
+        margin-top: 50%;
+
+    }
+
+    #blog-part .overlay .text h2 {
+        margin-top: 5%;
+
+    }
+
+    /*========== blog end =========*/
+
+    /*========== contact start ======*/
+
+    #contact-part .contact ul li {
+        display: none;
+    }
+
+    /*======== contact end =========*/
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /*========== title start =========*/
+    .title p {
+        width: auto;
+    }
+
+    /*========== title end =========*/
+
+
+    /*========== nav start =========*/
+    nav {
+        padding-top: 10px !important;
+        padding-bottom: 20px !important;
+    }
+
+    nav button i {
+        color: #2d3e50;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        background: #2d3e50;
+        padding: 20px 0;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    nav .button {
+        background: #2d3e50;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    nav .button a {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 8px 15px;
+        font-size: 18px;
+        transition: .6s;
+    }
+
+    nav .button a:hover {
+        background: #fff;
+        color: #fbaa33;
+    }
+
+    /*========== nav end =========*/
+
+
+    /*========== banner start =========*/
+    #banner-part .butten {
+        padding-bottom: 60px;
+    }
+
+    #banner-part h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    #banner-part h1 {
+        font-size: 42px;
+
+    }
+
+    #banner-part p {
+        width: auto;
+    }
+
+    #banner-part a {
+        font-size: 14px;
+        margin-top: 35px;
+        padding: 12px 15px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-bottom {
+        margin-top: 50px;
+        transform: translateY(0);
+    }
+
+    #banner-bottom .item h4 {
+        font-size: 16px;
+    }
+
+
+    /*========== banner end =========*/
+
+
+    /*========== about start =========*/
+    #about-part .item {
+        margin-top: 0;
+    }
+
+    #about-part .text p {
+        padding-top: 26px;
+        width: auto;
+    }
+
+    #about-part .text a {
+        padding: 12px 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+
+    /*========== about end =========*/
+
+
+    /*========== counter start =========*/
+
+    #counter-part {
+        margin-top: 0px;
+    }
+
+    #counter-part .item h2 {
+        font-size: 38px;
+        padding-bottom: 0;
+    }
+
+    #counter-part .item p {
+        font-size: 23px;
+        padding-bottom: 7px;
+    }
+
+    #counter-part .item img {
+        padding-bottom: 25px;
+    }
+
+    /*========== counter end =========*/
+
+
+    /*========== courses start =========*/
+
+    #courses-part .details p {
+        width: auto;
+    }
+
+    #courses-part .time h5 {
+        font-size: 12px;
+    }
+
+    #courses-part .prev {
+        top: 100%;
+        left: 40%;
+
+    }
+
+    #courses-part .next {
+        top: 100%;
+        right: 40%;
+
+    }
+
+    #courses-part .item h2 {
+        transition: .6s;
+    }
+
+    #courses-part .item .overlay {
+        transition: .6s;
+    }
+
+    #courses-part .item .btn a {
+        transition: .6s;
+    }
+
+    #courses-part .item:hover h2 {
+        color: #fbaa33;
+
+    }
+
+
+    #courses-part:hover .overlay {
+        opacity: 1;
+    }
+
+    #courses-part:hover .btn a {
+        background: #fbaa33;
+        border: 2px solid #fbaa33;
+
+    }
+
+
+    /*========== courses end =========*/
+
+
+    /*========== testimonial start =========*/
+
+
+    #testimonial-part .item p {
+        width: auto;
+
+    }
+
+    testimonial-part .test_slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 20%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #testimonial-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #testimonial-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    #testimonial-part .accordion-item {
+        margin-top: 40px;
+    }
+
+    /*========== testimonial end =========*/
+
+
+    /*========== testimonial start =========*/
+    #event-part .item img {
+        width: 100%;
+    }
+
+    #event-part .details {
+        display: flex;
+    }
+
+    #event-part .item {
+        margin-left: 10px;
+    }
+
+    /*========== testimonial end =========*/
+
+
+    /*========== teacher start =========*/
+
+
+    #teacher-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #teacher-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #teacher-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #teacher-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    /*========== teacher end =========*/
+
+
+
+    /*========== blog start =========*/
+
+    #blog-part {
+        transform: translateY(-7%);
+    }
+
+    #blog-part .big .img .overlay {
+        z-index: 1;
+    }
+
+    #blog-part .big .img .overlay .icon ul {
+        margin-top: 0;
+    }
+
+    #blog-part .big .img {
+        margin-bottom: 20px;
+    }
+
+
+    #blog-part .small .img .overlay h3 {
+        margin-top: 50%;
+
+    }
+
+    #blog-part .overlay .text h2 {
+        margin-top: 5%;
+
+    }
+
+    #blog-part .text {
+        display: none;
+    }
+
+    #blog-part p {
+        display: none;
+    }
+
+    #blog-part .overlay .icon a {
+        margin-top: 10px;
+        margin-left: 83%;
+    }
+
+    #blog-part .small .img {
+        margin-top: 20px;
+    }
+
+    /*========== blog end =========*/
+
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    /*========== title start =========*/
+    .title p {
+        width: auto;
+    }
+
+    /*========== title end =========*/
+    header p {
+	font-size: 14px;
+    }
+
+
+    /*========== nav start =========*/
+    nav {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    
+    nav ul {
+        padding: 15px 0;
+    }
+    nav ul li a {
+	font-size: 16px;
+	color: #2d3e50;
+	margin-right: 15px;
+    }
+    
+    nav .button {
+        margin-top: 30px;
+    }
+
+    nav .button a {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 8px 15px;
+        font-size: 18px;
+        transition: .6s;
+         background:#2d3e50;
+    }
+
+    nav .button a:hover {
+        background: #fbaa33;
+        color: #fff;
+    }
+
+    /*========== nav end =========*/
+
+
+    /*========== banner start =========*/
+    #banner-part .butten {
+        padding-bottom: 60px;
+    }
+
+    #banner-part h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    #banner-part h1 {
+        font-size: 42px;
+
+    }
+
+    #banner-part p {
+        width: auto;
+    }
+
+    #banner-part a {
+        font-size: 14px;
+        margin-top: 35px;
+        padding: 12px 15px;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+    }
+
+    #banner-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+
+    #banner-part .slick-dots .slick-active button {
+        background: #fbaa33;
+        border-color: #fbaa33;
+    }
+
+    #banner-bottom {
+        margin-top: 50px;
+        transform: translateY(0);
+    }
+
+    #banner-bottom .item h4 {
+        font-size: 16px;
+    }
+
+
+    /*========== banner end =========*/
+
+
+    /*========== about start =========*/
+    #about-part .item {
+        margin-top: 0;
+    }
+
+    #about-part .text p {
+        padding-top: 26px;
+        width: auto;
+    }
+
+    #about-part .text a {
+        padding: 12px 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+
+    /*========== about end =========*/
+
+
+    /*========== counter start =========*/
+
+    #counter-part {
+        margin-top: 0px;
+    }
+
+    #counter-part .item h2 {
+        font-size: 38px;
+        padding-bottom: 0;
+    }
+
+    #counter-part .item p {
+        font-size: 23px;
+        padding-bottom: 7px;
+    }
+
+    #counter-part .item img {
+        padding-bottom: 25px;
+    }
+
+    /*========== counter end =========*/
+
+
+    /*========== courses start =========*/
+    #courses-part{
+        padding-bottom: 30px;
+    }
+    #courses-part .details p {
+        width: auto;
+    }
+
+    #courses-part .time h5 {
+        font-size: 12px;
+    }
+
+    #courses-part .prev {
+        top: 102%;
+        left: 40%;
+
+    }
+
+    #courses-part .next {
+        top: 102%;
+        right: 40%;
+    }
+ 
+
+
+    #courses-part:hover .overlay {
+        opacity: 1;
+    }
+
+    #courses-part:hover .btn a {
+        background: #fbaa33;
+        border: 2px solid #fbaa33;
+
+    }
+
+
+    /*========== courses end =========*/
+
+
+    /*========== testimonial start =========*/
+
+
+    #testimonial-part .item p {
+        width: auto;
+
+    }
+
+    testimonial-part .test_slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #testimonial-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 20%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #testimonial-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #testimonial-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    #testimonial-part .accordion-item {
+        margin-top: 40px;
+    }
+
+    /*========== testimonial end =========*/
+
+
+    /*========== testimonial start =========*/
+    #event-part .item img {
+        width: 100% ;
+    }
+ 
+
+    /*========== testimonial end =========*/
+
+
+    /*========== teacher start =========*/
+
+
+    #teacher-part .slick-dots {
+        position: absolute;
+        bottom: -6%;
+        left: 50%;
+        padding-left: 0;
+        transform: translateX(-50%);
+    }
+
+    #teacher-part .slick-dots li {
+        display: inline-block;
+    }
+
+    #teacher-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        border: 1px solid #8a8988;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    #teacher-part .slick-dots .slick-active button {
+        background: #fba333;
+        border-color: #8a8988;
+    }
+
+    /*========== teacher end =========*/
+
+
+
+    /*========== blog start =========*/
+
+    #blog-part {
+        transform: translateY(-7%);
+    }
+
+    #blog-part .big .img .overlay {
+        z-index: 1;
+    }
+
+    #blog-part .big .img .overlay .icon ul {
+        margin-top: 0;
+    }
+
+    #blog-part .big .img {
+        margin-bottom: 20px;
+    }
+
+
+    #blog-part .small .img .overlay h3 {
+        margin-top: -5%;
+
+    }
+    
+
+    #blog-part .overlay .text h2 {
+        margin-top: 5%;
+
+    }
+    #blog-part .overlay .icon a {
+        margin-top: 10px;
+        margin-left: 83%;
+    }
+
+    #blog-part .small .img {
+        margin-top: 20px;
+    }
+
+    /*========== blog end =========*/
+
+
+}
