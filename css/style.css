@@ -157,13 +157,13 @@ nav ul li a:hover {
 }
 
 #banner-part .banner .overlay {
+    padding: 150px 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
 }
 
 #banner-part h2 {
-    padding-top: 150px;
     font-family: 'Arimo', sans-serif;
     font-size: 40px;
     font-weight: 400;
@@ -187,10 +187,6 @@ nav ul li a:hover {
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-}
-
-#banner-part .butten {
-    padding-bottom: 60px;
 }
 
 #banner-part a {
@@ -276,6 +272,7 @@ nav ul li a:hover {
     text-align: center;
     border: 2px solid #dddddd;
     border-radius: 2px solid #dddddd;
+    margin-left: 5px;
     padding-bottom: 60px;
     transition: all linear .4s;
 }
@@ -520,7 +517,7 @@ nav ul li a:hover {
 #counter-part .item p:after {
     position: absolute;
     top: 50px;
-    left: 44%;
+    left: 40%;
     width: 50px;
     height: 4px;
     background: #fbaa33;
@@ -530,7 +527,7 @@ nav ul li a:hover {
 #counter-part .item p:before {
     position: absolute;
     top: 50px;
-    left: 56%;
+    left: 58%;
     width: 15px;
     height: 4px;
     background: #fbaa33;
@@ -585,7 +582,7 @@ nav ul li a:hover {
     text-align: center;
     line-height: 50px;
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -609,7 +606,7 @@ nav ul li a:hover {
 
 #courses-part .name h5 {
     font-family: 'Arimo', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #444444;
     margin-left: 10px;
@@ -617,11 +614,11 @@ nav ul li a:hover {
 
 #courses-part .riteng {
     margin-top: 10px;
-    margin-left: 120px;
+    margin-left: 139px;
 }
 
 #courses-part .riteng i {
-    font-size: 14px;
+    font-size: 10px;
     color: #fbaa33;
 }
 
@@ -630,6 +627,7 @@ nav ul li a:hover {
     font-size: 13px;
     font-weight: 400;
     color: #444444;
+    margin-left: 7px;
 }
 
 #courses-part .details h2 {
@@ -774,6 +772,9 @@ nav ul li a:hover {
     background: #f5f5f5;
     margin-bottom: 30px;
     transition: all linear .4s;
+}
+#event-part .item img{
+    width: 100%;
 }
 
 #event-part .text {
@@ -1138,8 +1139,6 @@ nav ul li a:hover {
 
 #teacher-part .item img {
     width: 100%;
-    position: relative;
-
 }
 
 #teacher-part .text {
@@ -1158,7 +1157,7 @@ nav ul li a:hover {
     line-height: 50px;
     text-align: center;
     margin-left: 10px;
-    transform: translateY(-50%);
+    transform: translateY(-57%);
     opacity: 0;
     transition: all linear.4s;
 
@@ -1177,12 +1176,13 @@ nav ul li a:hover {
     font-size: 14px;
     font-weight: 00;
     color: #444444;
+    position: relative;
 }
 
-#teacher-part .item .text p:after {
+#teacher-part .text p:after {
     position: absolute;
-    bottom: 0;
-    left: 27%;
+    bottom: -10px;
+    left: 40%;
     width: 50px;
     height: 4px;
     background: #fbaa33;
@@ -1191,8 +1191,8 @@ nav ul li a:hover {
 
 #teacher-part .text p:before {
     position: absolute;
-    bottom: 0;
-    left: 48%;
+    bottom: -10px;
+    left: 63%;
     width: 15px;
     height: 4px;
     background: #fbaa33;
@@ -1292,7 +1292,7 @@ nav ul li a:hover {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
-    margin-top: 27%;
+    margin-top: 16%;
     margin-left: 20px;
 }
 
@@ -1328,7 +1328,7 @@ nav ul li a:hover {
     font-weight: 400;
     color: #fff;
     margin-top: 15px;
-    margin-left: 50px;
+    margin-left: 28px;
 }
 
 #blog-part .overlay .text-bottom .share p {
@@ -1397,7 +1397,7 @@ nav ul li a:hover {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
-    margin-top: 25%;
+    margin-top: 17%;
     margin-left: 10px;
 }
 

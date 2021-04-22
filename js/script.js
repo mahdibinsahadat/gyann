@@ -7,6 +7,15 @@ $('.banner-slider').slick({
   prevArrow:'<i class="fas fa-angle-left prev"></i>',
   nextArrow:'<i class="fas fa-angle-right next"></i>',
   responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+          arrows:false,
+          dots:true,
+      }
+    },
          {
         
       breakpoint: 1200,
@@ -166,10 +175,11 @@ $('.course-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
           dots: true,
+          arrows:false,
       }
     },
     {
-      breakpoint: 575,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -225,8 +235,8 @@ rev.on('init', function (event, slick, currentSlide) {
 
 rev.slick({
     speed: 1000,
-    arrows: false,
-    dots: true,
+    arrows: true,
+    dots: false,
     focusOnSelect: true,
     prevArrow: '<button> prev</button>',
     nextArrow: '<button> next</button>',
@@ -341,8 +351,8 @@ $('.end-slider').slick({
     {
       breakpoint: 576,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 3,
+        slidesToScroll: 1,
       }
     }
   ]

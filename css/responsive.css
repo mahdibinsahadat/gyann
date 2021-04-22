@@ -1,6 +1,9 @@
 @media (min-width:320px) and (max-width:575px) {
 
     /*========== title start =========*/
+    .title{
+        padding: 40px;
+    }
     .title p {
         width: auto;
     }
@@ -24,6 +27,13 @@
 
     nav {
         padding: 20px 0;
+    }
+    nav .title {
+        padding:40px;
+        
+    }
+    nav ul li a {
+        margin-right: 0px;
     }
 
     nav button i {
@@ -74,6 +84,9 @@
 
 
     /*========== banner start =========*/
+    #banner-part .banner .overlay {
+        padding: 0px;
+    }
     #banner-part h2 {
         padding-top: 50px;
         font-size: 30px;
@@ -158,17 +171,23 @@
     #counter-part {
         margin-top: 0px;
     }
-
+    #counter-part .item {
+        padding: 30px;
+    }
     #counter-part .item h2 {
         font-size: 38px;
         padding-bottom: 0;
     }
-
     #counter-part .item p {
         font-size: 23px;
         padding-bottom: 7px;
     }
-
+    #courses-part .time p {
+        font-size: 10px;
+    }
+    #counter-part .item p::after {
+        left: 38%;
+    }
     #counter-part .item img {
         padding-bottom: 25px;
     }
@@ -177,6 +196,31 @@
 
 
     /*========== courses start =========*/
+    
+    #courses-part .name {
+        margin-top: 13px;
+    }
+    
+    #courses-part .name p {
+	font-size: 12px;
+    }
+    #courses-part .name h5 {
+	font-size: 13px;
+    }
+    #courses-part .riteng {
+        margin-top: 3px;
+        margin-left: 24px;
+    }
+    #courses-part .riteng i {
+        font-size: 8px;
+    }
+    #courses-part .riteng p {
+        margin-left: -3px;
+    }
+    
+    #courses-part .details h2 {
+	font-size: 20px;
+    }
 
     #courses-part .details p {
         width: auto;
@@ -266,6 +310,9 @@
     #testimonial-part .accordion-item {
         margin-top: 40px;
     }
+    #testimonial-part .accordion-item h2 {
+        font-size: 18px;
+    }
 
     /*========== testimonial end =========*/
 
@@ -274,12 +321,16 @@
     #event-part .item img {
         width: 100%;
     }
+    #event-part .text h2 {
+        margin-top: 10px;
+    }
 
     /*========== event end =========*/
-
-
-
-
+    /*========== teacher start =========*/
+    #teacher-part .text p::before {
+        left: 59%;
+    }
+     /*========== teacher end =========*/
 
     /*========== blog start =========*/
 
@@ -289,6 +340,10 @@
 
     #blog-part .big .img .overlay {
         z-index: 1;
+    }
+    #blog-part .big .img .overlay .icon {
+        margin-right: 30px;
+        margin-top: 25px;
     }
 
     #blog-part .big .img .overlay .icon ul {
@@ -306,10 +361,17 @@
     #blog-part .text-bottom {
         display: none;
     }
+    #blog-part .row > * {
+        margin-bottom: 10px;
+    }
 
     /*========== blog end =========*/
 
     /*========== contact start ======*/
+    #contact-part .logo p {
+        width: auto;
+        margin-left: 10px;
+    }
 
     #contact-part .contact ul li {
         display: none;
@@ -329,15 +391,21 @@
     /*========== title end =========*/
 
     /*========== header start =========*/
+    header {
+        padding: 0;
+    }
+    header i {
+        margin-left: 4px;
+        margin-right: 5px;
+    }
 
     header p {
-        text-align: center;
-        display: block;
         margin: 8px 0;
-        font-size: 17px;
+        font-size: 14px;
     }
 
     header .reg {
+        width: 0;
         text-align: center;
     }
 
@@ -367,6 +435,7 @@
 
     nav ul li a {
         color: #fff;
+        margin-right: 0px;
     }
 
     nav .button {
@@ -392,6 +461,9 @@
 
 
     /*========== banner start =========*/
+    #banner-part .banner .overlay {
+        padding: 0px;
+    }
     #banner-part .butten {
         padding-bottom: 60px;
     }
@@ -476,8 +548,14 @@
 
     #counter-part {
         margin-top: 0px;
+        
     }
-
+    #counter-part .item p::before {
+	    left: 54%;
+    }
+    #counter-part .item p::after {
+	    left: 43%;
+    }
     #counter-part .item h2 {
         font-size: 38px;
         padding-bottom: 0;
@@ -496,6 +574,13 @@
 
 
     /*========== courses start =========*/
+    #courses-part .riteng {
+	    margin-left: 224px;
+    }
+    
+    #teacher-part .text p::after {
+	left: 35%;
+}
 
     #courses-part .details p {
         width: auto;
@@ -594,14 +679,11 @@
     #event-part .item img {
         width: 100%;
     }
-
-
-    #event-part .slick-dots {
-        position: absolute;
-        bottom: -20px;
-        left: 50%;
-        padding-left: 0;
-        transform: translateX(-50%);
+    #event-part .text h2 {
+        margin-top: 10px;
+    }
+    #teacher-part .text p::after {
+        left: 38%;
     }
 
     #event-part .slick-dots li {
@@ -609,13 +691,7 @@
     }
 
     #event-part .slick-dots li button {
-        font-size: 0;
-        width: 10px;
-        height: 10px;
-        background: #fba333;
-        border: 1px solid #fba333;
-        border-radius: 50%;
-        margin: 5px;
+        margin: 10px;
     }
 
     #event-part .slick-dots .slick-active button {
@@ -664,7 +740,8 @@
     /*========== blog start =========*/
 
     #blog-part {
-        transform: translateY(-7%);
+        transform: translateY(-5%);
+        
     }
 
     #blog-part .big .img .overlay {
@@ -682,11 +759,13 @@
 
     #blog-part .small .img .overlay h3 {
         margin-top: 50%;
-
     }
 
     #blog-part .overlay .text h2 {
         margin-top: 5%;
+    }
+    #blog-part .overlay .text h2 {
+	    font-size: 16px;
 
     }
 
@@ -710,6 +789,13 @@
     }
 
     /*========== title end =========*/
+    
+    /*========== header start =========*/
+     header p {
+	font-size: 16px;
+     }
+    
+    /*========== header end =========*/
 
 
     /*========== nav start =========*/
@@ -717,7 +803,6 @@
         padding-top: 10px !important;
         padding-bottom: 20px !important;
     }
-
     nav button i {
         color: #2d3e50;
         margin-top: 10px;
@@ -732,6 +817,9 @@
     nav ul li {
         text-align: center;
         padding: 0;
+    }
+    nav ul li a {
+        margin-right: 0px;
     }
 
     nav ul li a {
@@ -761,12 +849,15 @@
 
 
     /*========== banner start =========*/
+    
     #banner-part .butten {
         padding-bottom: 60px;
     }
+    #banner-part .banner .overlay {
+        padding: 40px ;
+    }
 
     #banner-part h2 {
-        padding-top: 50px;
         font-size: 30px;
     }
 
@@ -781,8 +872,6 @@
 
     #banner-part a {
         font-size: 14px;
-        margin-top: 35px;
-        padding: 12px 15px;
     }
 
     #banner-part .slick-dots {
@@ -869,6 +958,9 @@
 
 
     /*========== courses start =========*/
+    #courses-part .riteng {
+	margin-left: 38px;
+    }
 
     #courses-part .details p {
         width: auto;
@@ -970,6 +1062,9 @@
     #testimonial-part .accordion-item {
         margin-top: 40px;
     }
+    #testimonial-part .accordion-item h2 {
+        font-size: 19px;
+    }
 
     /*========== testimonial end =========*/
 
@@ -1003,6 +1098,7 @@
 
     #teacher-part .slick-dots li {
         display: inline-block;
+        position: relative;
     }
 
     #teacher-part .slick-dots li button {
@@ -1012,7 +1108,15 @@
         background: transparent;
         border: 1px solid #8a8988;
         border-radius: 50%;
-        margin: 0 5px;
+        margin-top: 15px;
+        margin-left: 5px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        
+    }
+    #teacher-part .text p::after {
+        left: 36%;
     }
 
     #teacher-part .slick-dots .slick-active button {
@@ -1129,15 +1233,16 @@
     #banner-part .butten {
         padding-bottom: 60px;
     }
+    #banner-part .banner .overlay {
+        padding: 30px ;
+    }
 
     #banner-part h2 {
-        padding-top: 50px;
         font-size: 30px;
     }
 
     #banner-part h1 {
         font-size: 42px;
-
     }
 
     #banner-part p {
@@ -1215,6 +1320,9 @@
     #counter-part {
         margin-top: 0px;
     }
+    #counter-part .item p::after {
+	    left: 34%;
+    }
 
     #counter-part .item h2 {
         font-size: 38px;
@@ -1239,6 +1347,9 @@
     }
     #courses-part .details p {
         width: auto;
+    }
+    #courses-part .riteng {
+	   margin-left: 159px;
     }
 
     #courses-part .time h5 {
@@ -1284,7 +1395,6 @@
         margin-left: 0;
         margin-right: 0;
     }
-
     #testimonial-part .slick-slider {
         margin-left: 0;
         margin-right: 0;
@@ -1320,6 +1430,9 @@
     #testimonial-part .accordion-item {
         margin-top: 40px;
     }
+    #testimonial-part .accordion-item h2 {
+        font-size: 19px;
+    }
 
     /*========== testimonial end =========*/
 
@@ -1327,6 +1440,17 @@
     /*========== testimonial start =========*/
     #event-part .item img {
         width: 100% ;
+    }
+    
+    #event-part .text h2 {
+	   font-size: 16px;
+    }
+    #event-part .text p {
+	   margin-top: 0px; 
+    }
+    #event-part .text p {
+	   font-size: 12px;
+	   margin-top: 0px; 
     }
  
 
@@ -1362,6 +1486,9 @@
         background: #fba333;
         border-color: #8a8988;
     }
+    #teacher-part .text p::after {
+	    left: 32%;
+    }
 
     /*========== teacher end =========*/
 
@@ -1370,7 +1497,7 @@
     /*========== blog start =========*/
 
     #blog-part {
-        transform: translateY(-7%);
+        transform: translateY(-20%);
     }
 
     #blog-part .big .img .overlay {
@@ -1388,10 +1515,16 @@
 
     #blog-part .small .img .overlay h3 {
         margin-top: -5%;
-
     }
-    
-
+    #blog-part .overlay .text-bottom .date p {
+	    font-size: 11px;
+    }
+    #blog-part .overlay .text-bottom .share p {
+	    margin-left: -6px;
+    }
+    #blog-part .overlay .text-bottom .views p {
+	    margin-left: 6px;
+}
     #blog-part .overlay .text h2 {
         margin-top: 5%;
 
@@ -1406,6 +1539,12 @@
     }
 
     /*========== blog end =========*/
-
-
+    
+     /*========== contact start =========*/
+    #contact-part .logo p {
+	    width: auto;
+    }
+    /*========== contact end =========*/
 }
+
+
